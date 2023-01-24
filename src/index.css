@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+@layer base {
+  select {
+    @apply outline-none cursor-pointer border border-stone-400 py-1 px-3 rounded-md
+  }
+
+  li {
+    @apply border-r border-stone-300 px-4 py-3
+  }
+}
